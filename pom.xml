@@ -9,7 +9,7 @@
 
 	<name>jQuery Scrolling Plugin</name>
 	<artifactId>webjar-jquery-scrollto</artifactId>
-	<version>2.1.2-SNAPSHOT</version>
+	<version>2.1.2</version>
 	<description>Lightweight, cross-browser and highly customizable animated scrolling with jQuery.</description>
 	
 	<properties>
@@ -33,10 +33,10 @@
 						<id>precompile</id>
 						<configuration>
 							<target>
-								<get src="${src.url}" dest="${src.zipdir}/src.zip"/>
+								<get src="${src.url}" dest="${src.zipdir}/src.zip" />
 								<unzip src="${src.zipdir}/src.zip" dest="${src.tmpdir}" />
 								<move todir="${webjar.target}">
-									<fileset dir="${src.rootdir}" includes="*.js,LICENSE,README.md"/>
+									<fileset dir="${src.rootdir}" includes="*.js,LICENSE,README.md" />
 								</move>
 							</target>
 						</configuration>
@@ -45,4 +45,8 @@
 			</plugin>
 		</plugins>
 	</build>
+
+  <scm>
+    <tag>2.1.2</tag>
+  </scm>
 </project>
