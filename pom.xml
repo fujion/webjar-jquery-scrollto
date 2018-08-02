@@ -8,7 +8,7 @@
 	</parent>
 
 	<name>jQuery Scrolling Plugin</name>
-	<artifactId>fujion-jquery-scrollto</artifactId>
+	<artifactId>webjar-jquery-scrollto</artifactId>
 	<version>2.1.2-SNAPSHOT</version>
 	<description>Lightweight, cross-browser and highly customizable animated scrolling with jQuery.</description>
 	

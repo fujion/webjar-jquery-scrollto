@@ -1,2 +1,3 @@
-# fujion-jquery-scrollto
-Web jar for https://github.com/flesler/jquery.scrollTo.
+# webjar-jquery-scrollto
+Web jar for jquery.scrollTo.
+https://github.com/flesler/jquery.scrollTo
