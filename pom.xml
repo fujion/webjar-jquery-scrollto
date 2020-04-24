@@ -12,16 +12,6 @@
 	<version>2.1.2-1-SNAPSHOT</version>
 	<description>Lightweight, cross-browser and highly customizable animated scrolling with jQuery.</description>
 	
-	<properties>
-		<systemjs>
-			{
-				"paths": {
-					"jquery-scrollTo": "jquery.scrollTo.js"
-				}
-			}			
-		</systemjs>
-	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -30,9 +20,6 @@
 				<executions>
 					<execution>
 						<id>npm-install</id>
-						<configuration>
-							<skip>false</skip>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
