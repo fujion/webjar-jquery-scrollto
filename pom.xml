@@ -43,7 +43,10 @@
 						<configuration>
 							<target>
 								<copy todir="${webjar.target}">
-									<fileset dir="${src.rootdir}/node_modules/jquery.scrollto" includes="*.js,README.md,LICENSE" />
+									<fileset dir="${src.rootdir}/node_modules/jquery.scrollto" includes="README.md,LICENSE" />
+								</copy>
+								<copy todir="${webjar.target}/dist">
+									<fileset dir="${src.rootdir}/node_modules/jquery.scrollto" includes="*.js" />
 								</copy>
 							</target>
 						</configuration>

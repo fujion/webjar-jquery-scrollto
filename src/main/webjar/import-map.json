@@ -1,5 +1,5 @@
 {
-  "imports": {
-    "jquery-scrollTo": "jquery.scrollTo.js"
+  "paths": {
+    "jquery-scrollTo": "dist/jquery.scrollTo.js"
   }
 }
