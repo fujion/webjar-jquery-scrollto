@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.fujion.webjars</groupId>
 		<artifactId>fujion-webjars</artifactId>
-2.		<version>3.0.0</version>
+		<version>3.0.0</version>
 	</parent>
 
 	<name>jQuery Scrolling Plugin</name>
