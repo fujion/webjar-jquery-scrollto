@@ -12,10 +12,6 @@
 	<version>2.1.3-11-SNAPSHOT</version>
 	<description>Lightweight, cross-browser and highly customizable animated scrolling with jQuery.</description>
 
-	<properties>
-		<npm-install.skip>false</npm-install.skip>
-	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -23,7 +19,7 @@
 				<artifactId>webjar-validator-maven-plugin</artifactId>
 				<executions>
 					<execution>
-						<id>validate-webjar</id>
+						<id>webjar-validate</id>
 						<configuration>
 							<rules>
 								<rule>file_exists import-map.json</rule>
@@ -42,7 +38,7 @@
 						<id>precompile</id>
 						<configuration>
 							<target>
-								<copy todir="${src.rootdir}">
+								<copy todir="${webjar.staging}">
 									<fileset dir="${basedir}/staging" />
 									<filterchain>
 										<expandproperties />
