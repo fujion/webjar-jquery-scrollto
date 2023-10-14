@@ -2,7 +2,13 @@
   "name": "${project.artifactId}",
   "version": "${version.unrevise}",
   "description": "${project.description}",
+  "scripts": {
+    "postinstall": "gulp"
+  },
   "dependencies": {
     "jquery.scrollto": "${version.unrevise}"
-    }
+    },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
